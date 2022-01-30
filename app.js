@@ -1,6 +1,7 @@
 export class App {
 
   constructor() {
+    console.log('ok');
     this.outputDiff = document.getElementById('outputDiff');
     this.input = document.getElementById('input');
     this.go = document.getElementById('go');
